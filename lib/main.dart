@@ -9,6 +9,7 @@ void main() {
   runApp(
     GetMaterialApp(
       initialBinding: StorageBindings(),
+      debugShowCheckedModeBanner: false,
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
